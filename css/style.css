@@ -1,0 +1,106 @@
+.main{
+	height: 100vh;
+	position: relative;
+}
+
+.left{
+	float: left;
+	background-color: lightblue;
+	width: 50%;
+	height: 100vh;
+}
+
+.left-content{
+	color: white;
+	padding-left: 30%;
+	padding-top: 20%;
+}
+
+.left-content h1{
+	font-size: 72px;
+    font-weight: bold;
+}
+.left-content h2{
+	    font-size: 38px;
+}
+.left-content span{
+	font-size: 66px;
+}
+.left-content p{
+	font-size: 30px;
+    font-style: italic;
+}
+
+.right{
+	float: right;
+	width: 50%;
+	height: 100vh;
+	background-color: lightgreen;
+}
+
+.sec1{
+	padding-top: 16%;
+    padding-left: 45%;
+    color: white;
+}
+
+.sec1 h2{}
+.sec1 h3{}
+.sec1 span{
+	font-size: 30px;
+}
+
+.see{
+	position: relative;
+	/*border:2px solid red;*/
+	overflow: hidden;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.see input{
+	border:2px solid coral;
+	border-radius: 10px;
+	height: 30px;
+	width: 300px;
+	padding: 10px;
+}
+
+.see input:focus{
+	outline-style: none;
+}
+
+.see button{
+	border:2px solid #E9767C;
+	background-color: #E9767C;
+	height: 30px;
+	width: 200px;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	padding: 8px;
+	
+}
+
+.see button:hover + #up{
+
+	/*display: block;*/
+	top:6px;
+}
+
+.see button:focus{
+	outline-style: none;
+}
+
+.bun{
+	position: absolute;
+    top: 27px;
+    left: 365px;
+    font-weight: bold;
+    color: white;
+    /*display: none;*/
+    transition: all 0.3s;
+
+}
